@@ -1,0 +1,43 @@
+body {
+    font-family: 'Archivo Black', sans-serif;
+    color: rgb(255, 255, 255);
+    /* background: rgb(0, 0, 0); */
+    /* background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(110, 110, 110, 1) 50%, rgba(0, 0, 0, 1) 100%); */
+    background-image: url("images/bg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+#title-page {
+    height: 100px;
+    width: auto;
+}
+
+#tle {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    margin: 5%;
+    text-align: center;
+    text-shadow: 3px 0 #DA0463;
+}
+
+.dice {
+    display: inline-block;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.dice p {
+    margin: 5%;
+}
+
+img {
+    width: 80%;
+}
